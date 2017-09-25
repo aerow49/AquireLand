@@ -1,1 +1,6 @@
 # AquireLand
+The game will consist of two screens, one of land and the other of resource management. The land will be divided into little squares and will have a cost to both maintain security as well as to purchase new. Once the land on the map is all taken the person with the most land will be the winner. The resource management page will be a list of possible focuses that you can have. The focuses will be gold(resource to acquire new land), food(resource to keep current land), and army(resource to acquire land from others). Players are given citizens based on the size of the kingdom and can allocate citizens based on what resource generation they need the most of. Having two screens is important because a player needs to divert attention from one task and singularly focus on the other task. This is intended to add challenge of multiple things needing attention.
+ 
+ Games are designed to be fast paced only lasting at most 10 minutes and should allow 2-5 players per match
+ 
+ The technical backend that will manage the game data will be a server that is built using html sockets and run using a node.js server to maintain data and sync clients. Clients will be built using p5JS and possibly some kind of tab management system to allow the flip from one screen to the other.
